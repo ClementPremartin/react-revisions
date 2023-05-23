@@ -1,0 +1,15 @@
+.continents {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  right: 10%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.ant-select {
+  margin-bottom: 20px;
+}
+

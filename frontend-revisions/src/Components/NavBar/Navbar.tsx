@@ -1,11 +1,20 @@
 import { NavLink } from "react-router-dom";
 import { CONTINENTS, COUNTRIES, COUNTRY } from "../../path";
+import "./Navbar.css";
+
 const Navbar = () => {
   return (
-    <div>
-      <NavLink to={COUNTRIES}>Countries</NavLink>
-      <NavLink to={COUNTRY}>Country</NavLink>
-      <NavLink to={CONTINENTS}>Continents</NavLink>
+    <div className="navMenu">
+      <NavLink className="link" to={COUNTRIES}>
+        Countries
+      </NavLink>
+      <NavLink className="link" to={COUNTRY}>
+        Country
+      </NavLink>
+      <NavLink className="link" to={CONTINENTS}>
+        Continents
+      </NavLink>
+      <div className="dot"></div>
     </div>
   );
 };
